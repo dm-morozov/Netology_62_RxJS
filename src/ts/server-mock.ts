@@ -1,3 +1,5 @@
+// src/ts/server-mock.ts
+
 import { faker } from "@faker-js/faker";
 import { ServerResponce, Message } from "./models";
 
