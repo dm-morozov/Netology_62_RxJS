@@ -1,8 +1,16 @@
-import { ServerMock } from "./server-mock";
+import ServerMock from "./server-mock";
+import { Observable, of } from "rxjs";
+import { ServerResponce } from "./models";
+
 
 export default class MessagesApi {
   // класс для работы с API
   // Этот класс будет отвечать за выполнение
   // запросов к серверу (в нашем случае к ServerMock)
   //  с использованием rxjs/ajax
+
+  // Эмуляция запроса к серверу с помощью ServerMock
+  static getUnreadMessages(): Observable<ServerResponce> {
+    return of(ServerMock.getUnreadMessages());
+  }
 }
