@@ -3,11 +3,11 @@
 ---
 
 ### Статус проекта
-[![Build status](https://ci.appveyor.com/api/projects/status/pfxc08pwhaqg699c?svg=true)](https://ci.appveyor.com/project/dm-morozov/netology-61-geolocation-notification-media)
-![CI](https://github.com/dm-morozov/Netology_61_geolocation_notification_media/actions/workflows/web.yaml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/r5ce93k5693307wb?svg=true)](https://ci.appveyor.com/project/dm-morozov/netology-62-rxjs)
+![CI](https://github.com/dm-morozov/Netology_62_RxJS/actions/workflows/web.yaml/badge.svg)
 ![Netology](https://img.shields.io/badge/TypeScript-WebPack-blue)
 
-[**Ссылка на проект на GitHub Pages**](https://dm-morozov.github.io/Netology_61_geolocation_notification_media/)
+[**Ссылка на проект на GitHub Pages**](https://dm-morozov.github.io/Netology_62_RxJS/)
 
 -----
 
