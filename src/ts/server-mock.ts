@@ -36,7 +36,7 @@ export default class ServerMock {
         from: faker.internet.email(),
         subject: faker.lorem.sentence(),
         body: faker.lorem.paragraph(),
-        received: faker.date.recent({ days: 10 }).getTime() / 1000, // timestamp в секундах
+        received: String(faker.date.recent({ days: 10 }).getTime() / 1000), // timestamp в секундах
       }),
     );
 

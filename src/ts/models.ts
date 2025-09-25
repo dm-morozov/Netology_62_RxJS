@@ -5,7 +5,7 @@ export interface Message {
   from: string;
   subject: string;
   body: string;
-  received: number;
+  received: string;
 }
 
 export interface ServerResponce {
