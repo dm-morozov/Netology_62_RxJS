@@ -43,7 +43,7 @@ h2 {
 }
 
 /* Инпуты */
-input[type="text"] {
+.input-text {
   display: inline-block;
   width: calc(50% - 12px);
   padding: 10px 12px;
@@ -54,10 +54,21 @@ input[type="text"] {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-input[type="text"]:focus {
+.input-text:focus {
   border-color: #0079bf;
   box-shadow: 0 0 0 3px rgba(0, 121, 191, 0.2);
   outline: none;
+}
+
+.fullname-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.fullname-container .input-text {
+    width: 50%;
+    box-sizing: border-box;
 }
 
 /* Кнопки */
@@ -82,11 +93,26 @@ button:active {
   background: #00486a;
 }
 
+.ajax-request-container,
+.attention-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.ajax-request-container .ajax-response-name,
+.attention-container .click-for-btn {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
 /* Блоки для отображения данных */
 .attention-message,
 .displays-tracked-date,
 .ajax-response-name,
-.last-first-name {
+.last-first-name, 
+.click-for-btn {
   margin-top: 12px;
   padding: 10px 14px;
   background: #eef6fb;
@@ -94,7 +120,12 @@ button:active {
   border-radius: 8px;
   font-size: 15px;
   color: #333;
-  min-height: 20px;
+  height: 40px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
   transition: background 0.3s ease;
 }
 

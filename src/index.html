@@ -15,30 +15,32 @@
             </a>
         </h1>
         <h2 class="hello">Привет, Guest</h2>
-        <input type="text" class="email input validator">
+        <input type="text" class="email input validator input-text" placeholder="Введите email...">
 
         <h2>Задача 2. Клики по кнопке</h2>
-        <div>
+        <div class="attention-container">
             <button class="attention-btn">Нажми</button>
             <div class="click-for-btn"></div>
         </div>
 
-        <h2>Задача 3. Ввод текста</h2>
+        <h2>Задача 3. Ввод текста с дебаунсом</h2>
         <div>
-            <input type="text" id="track-input" class="track-input">
+            <input type="text" id="track-input" class="track-input input-text">
             <div class="displays-tracked-date"></div>
         </div>
 
         <h2>Задача 4. API запрос</h2>
-        <div>
+        <div class="ajax-request-container">
             <button class="ajax-request-btn">Нажми</button>
             <div class="ajax-response-name"></div>
         </div>
         
         <h2>Задача 5. Два поля ввода</h2>
         <div>
-            <input type="text" name="firstname" class="firstname" placeholder="Введите имя...">
-            <input type="text" name="lastname" class="lastname" placeholder="Введите фамилию..">
+            <div class="fullname-container">
+                <input type="text" name="firstname" class="firstname input-text" placeholder="Введите имя...">
+                <input type="text" name="lastname" class="lastname input-text" placeholder="Введите фамилию..">
+            </div>
             <div class="last-first-name"></div>
         </div>
         <h2>Задача 6. Polling</h2>
